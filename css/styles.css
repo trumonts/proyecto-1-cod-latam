@@ -11,19 +11,31 @@
     scroll-behavior: smooth;
 }
 
+html {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 25vw;
+    height: auto;
+    text-align: center;
+
+}
+
 body {
     background-color: #fbfbfb;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
-
-
 }
 
-
+.encabezado {
+    height: 90px;
+    margin-bottom: 100px;
+    position: sticky;
+    top: 0;
+    background-color: #fafafa;
+    overflow: hidden;
+    box-shadow: 0px 10px 5px -12px  rgba(145, 50, 50, 0.952);
+}
 
 ul {
     list-style: none;
@@ -35,38 +47,13 @@ a {
     color: inherit;
 }
 
-
-main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 25vw;
-    height: auto;
-    text-align: center;
-    
-}
-
-
-header {
-    height: 90px;
-    margin-bottom: 100px;
-    position: sticky;
-    top: 0;
-    background-color: #fafafa;
-    overflow: hidden;
-
-
-}
-
 .encabezado-contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 1px 0px 30px rgb(0, 0, 0);
-    background-color: ;
+
+
 
 }
 
@@ -126,13 +113,15 @@ header {
     color: #fbfbfb;
 
 }
-.perfil a:hover{
-  
+
+.perfil a:hover {
+
     border: 1px solid crimson;
     font-size: 22px;
     color: black;
 }
-#lista-servicios{
+
+#lista-servicios {
     margin-bottom: 90px;
 }
 
@@ -165,11 +154,12 @@ header {
     max-width: 50px;
 }
 
-.logos-sociales img:hover{
+.logos-sociales img:hover {
     border: 1px solid grey;
     border-radius: 15px;
     max-width: 55px;
 }
+
 p {
     margin: 20px 20px;
 }
